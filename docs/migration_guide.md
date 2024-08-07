@@ -40,7 +40,9 @@ Because of confusion with `Options` defaults in bincode 1, we have made `Configu
 
 ## Migrating with `serde`
 
-Make sure to include bincode 2 with the `serde` feature enabled.
+You may wish to stick with `serde` when migrating to bincode 2, for example if you are using serde-exclusive derive features such as `#[serde(deserialize_with)]`.
+
+If so, make sure to include bincode 2 with the `serde` feature enabled, and use the `bincode::serde::*` functions instead of `bincode::*` as described below:
 
 ```toml
 [dependencies]
@@ -62,7 +64,7 @@ Then replace the following functions: (`Configuration` is `bincode::config::lega
 | `bincode::serialize_into(std::io::Write, T)`    | `bincode::serde::encode_into_std_write(T, std::io::Write, Configuration)`                                                       |
 | `bincode::serialized_size(T)`                   | Currently not implemented                                                                                                       |
 
-## Migrating to `bincode-derive`
+## Migrating from `serde` to `bincode-derive`
 
 `bincode-derive` is enabled by default. If you're using `default-features = false`, make sure to add `features = ["derive"]` to your `Cargo.toml`.
 
