@@ -1,4 +1,16 @@
-# Bincode
+Due to a doxxing incident bincode development has officially ceased and will not resume. Version 1.3.3 is considered a complete version of bincode that is not in need of any updates. Updates will only be pushed to the in the unlikely event of CVEs. Do not contact us for any other reason.
+
+To those of you who bothered doxxing us. Go touch grass and maybe for once consider your actions have consequences for real people.
+
+Fuck off and worst regards,
+The Bincode Team
+
+
+
+# Original readme continues below
+
+#Bincode
+
 <img align="right" src="./logo.svg" />
 
 [![CI](https://github.com/bincode-org/bincode/workflows/CI/badge.svg)](https://github.com/bincode-org/bincode/actions)
