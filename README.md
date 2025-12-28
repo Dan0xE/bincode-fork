@@ -2,11 +2,9 @@ Credits go to the original bincode dev team.
 
 Due to a doxxing incident, the bincode development has officially ceased. 
 
-This fork is for my personal use and extends upon version 2.0.1.
+This fork extends upon version 2.0.1.
 
-# Original readme continues below
-
-#Bincode
+# Bincode
 
 <img align="right" src="./logo.svg" />
 
