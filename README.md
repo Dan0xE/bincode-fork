@@ -1,11 +1,8 @@
-Due to a doxxing incident bincode development has officially ceased and will not resume. Version 1.3.3 is considered a complete version of bincode that is not in need of any updates. Updates will only be pushed to the in the unlikely event of CVEs. Do not contact us for any other reason.
+Credits go to the original bincode dev team.
 
-To those of you who bothered doxxing us. Go touch grass and maybe for once consider your actions have consequences for real people.
+Due to a doxxing incident, the bincode development has officially ceased. 
 
-Fuck off and worst regards,
-The Bincode Team
-
-
+This fork is for my personal use and extends upon version 2.0.1.
 
 # Original readme continues below
 
