@@ -160,7 +160,7 @@ pub trait Decoder: Sealed {
     fn context(&mut self) -> &mut Self::Context;
 
     /// Wraps decoder with a context
-    fn with_context<C>(&mut self, context: C) -> WithContext<Self, C> {
+    fn with_context<C>(&mut self, context: C) -> WithContext<'_, Self, C> {
         WithContext {
             decoder: self,
             context,
@@ -209,7 +209,7 @@ pub trait Decoder: Sealed {
     /// #     fn with_capacity(cap: usize) -> Self {
     /// #         Self(Vec::with_capacity(cap))
     /// #     }
-    /// #     
+    /// #
     /// #     fn push(&mut self, t: T) {
     /// #         self.0.push(t);
     /// #     }
