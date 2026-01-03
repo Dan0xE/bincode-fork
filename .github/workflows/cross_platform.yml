@@ -3,14 +3,12 @@
   "on": {
     "push": {
       "branches": [
-        "trunk",
-        "v*.x",
-        "ci/*"
+        "main"
       ]
     },
     "pull_request": {
       "branches": [
-        "trunk",
+        "main",
         "v*.x"
       ]
     }

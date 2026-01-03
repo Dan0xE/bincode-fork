@@ -5,8 +5,8 @@ authors = [
     "Zoey Riordan <zoey@dos.cafe>",
     "Victor Koenders <bincode@trangar.com>",
 ]
-edition = "2021"
-rust-version = "1.85.0"
+edition = "2024"
+rust-version = "1.86.0"
 
 repository = "https://github.com/bincode-org/bincode"
 documentation = "https://docs.rs/bincode_derive"

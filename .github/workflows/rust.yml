@@ -3,14 +3,12 @@
   "on": {
     "push": {
       "branches": [
-        "trunk",
-        "v*.x",
-        "ci/*"
+        "main"
       ]
     },
     "pull_request": {
       "branches": [
-        "trunk",
+        "main",
         "v*.x"
       ]
     }
@@ -26,7 +24,7 @@
             "stable",
             "beta",
             "nightly",
-            "1.85.0"
+            "1.86.0"
           ]
         }
       },
@@ -81,7 +79,7 @@
           ],
           "rust": [
             "stable",
-            "1.85.0"
+            "1.86.0"
           ],
           "features": [
             "",
@@ -140,7 +138,7 @@ fi",
           "uses": "actions-rs/toolchain@v1",
           "with": {
             "profile": "minimal",
-            "toolchain": "1.85.0",
+            "toolchain": "1.86.0",
             "override": true,
             "components": "rustfmt, clippy"
           },
@@ -176,8 +174,8 @@ fi",
           "uses": "actions-rs/toolchain@v1",
           "with": {
             "profile": "minimal",
-            "toolchain": "1.85.0",
-            "override": true,
+            "toolchain": "1.86.0",
+            "override": true
           },
           "name": "Install Rust stable"
         },
