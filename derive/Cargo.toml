@@ -20,4 +20,4 @@ description = "Implementation of #[derive(Encode, Decode)] for bincode"
 proc-macro = true
 
 [dependencies]
-virtue = "0.0.18"
+virtue = { git = "https://github.com/Dan0xE/virtue-fork.git", tag = "v0.0.20" }
