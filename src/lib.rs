@@ -85,7 +85,7 @@ mod features;
 pub(crate) mod utils;
 pub(crate) mod varint;
 
-use de::{read::Reader, Decoder};
+use de::{Decoder, read::Reader};
 use enc::write::Writer;
 
 #[cfg(any(
@@ -233,5 +233,5 @@ pub mod migration_guide {
 // Test the examples in readme.md
 #[cfg(all(feature = "alloc", feature = "derive", doctest))]
 mod readme {
-    #![doc = include_str!("../readme.md")]
+    #![doc = include_str!("../README.md")]
 }
